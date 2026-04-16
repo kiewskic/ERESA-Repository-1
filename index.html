@@ -1,15 +1,75 @@
 <!doctype html>
-            
 <html lang="en">
 
 <head>
-<meta charset="utf-8">
-<title>my index page</title>
+  <meta charset="utf-8">
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <title>Cooper K's Demo Page</title>
+  <style>
+    body {
+      background: #d5d5d5;
+      color: #00ff1a;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    }
+
+    h1 {
+      font-family: 'Times New Roman', Times, serif;
+    }
+
+    p {
+      color: #717171;
+    }
+
+    .bob {
+      color: rgb(87, 18, 215);
+    }
+
+    #tom {
+      color: rgb(206, 1, 206);
+    }
+ul {
+  margin:0;
+  padding:0;
+  list-style-type: none;
+}
+ul li a {
+  color: rgb(0, 255, 64);
+  text-decoration: none;
+  text-align: center;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 30px;
+  margin: 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.3);
+scale: 1;
+transition: scale .6s, box-shadow .6s, background .6s, color .6s;
+}
+ul li a:hover {
+  background: rgb(4, 0, 255);
+  color: white;
+  box-shadow: 5px 15px 10px rgba(0, 0, 0, 0.5);
+  scale:1.2;
+}
+
+  </style>
 </head>
-            
+
 <body>
-<p>hello world.</p>
+  <h1>I'm Cooper</h1>
+  <p><span id="tom">yooooo</span> what's going on and whatnot</p>
+  <p class="bob">First Demo Page</p>
+  <ul>
+    <li><a href="text.html">text page</a></li>
+    <li><a href="quotes.html">quotes page</a></li>
+    <li><a href="boxes.html">boxes page</a></li>
+    <li><a href="image.html">image page</a></li>
+  </ul>
 </body>
 
 </html>
-           
