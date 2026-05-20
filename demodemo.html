@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<title>Cooper's Demo Page</title>
+<style>
+div {
+    width: 200px;
+    height: 200px;
+    background: #000;
+    margin: 50px;
+}
+#static {
+    background-color: orange;
+    position: static;
+}
+#sticky {
+background-color: antiquewhite;
+position: sticky;
+}
+#relative {
+background-color: blueviolet;
+position: relative;
+left: 100px;
+top: 100px;
+z-index: -5;
+}
+#fixed {
+background-color: lawngreen;
+position: fixed;
+}
+#absolute {
+background-color: darkblue;
+position: absolute;
+left: 300px;
+bottom: 300px;
+}
+
+</style>
+</head>
+
+<body>
+<div id="static"></div>
+<div id="sticky"></div>
+<div id="relative"></div>
+<div id="fixed"></div>
+<div id="absolute"></div>
+</body>
+
+</html>
